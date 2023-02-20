@@ -1,0 +1,215 @@
+/* Basic */
+html{
+    background-color: rgb(15, 9, 0);
+    color: white;
+    text-align: center;
+}
+
+.DarkBar{
+    height: 75px;
+    width: 600px;
+    background-color: black;
+    position: absolute;
+}
+
+.OrangeBar{
+    height: 40px;
+    width: 500px;
+    background-color: orange;
+    border: solid rgba(253, 165, 0, 0.623) 2px;
+    position: absolute;
+}
+.OrangeSquare{
+    height: 120px;
+    width: 100px;
+    background-color: orange;
+    border: solid rgba(253, 164, 0, 0.158) 1px;
+    position: absolute;
+}
+
+.FrontLights{
+    position: absolute;
+    background-color: rgb(255, 123, 0);
+    height: 56px;
+    width: 211px;
+    filter: blur(75px);
+    z-index: 9;
+}
+
+.BackgroundLights{
+    position: absolute;
+    background-color: rgba(255, 222, 152, 0.692);
+    height: 400px;
+    width: 400px;
+    filter: blur(75px);
+    z-index: -3;
+}
+
+.MidgroundLights{
+    position: absolute;
+    background-color: rgba(255, 183, 0, 0.83);
+    height: 200px;
+    width: 300px;
+    filter: blur(80px);
+}
+/* Specific */
+#Vert{
+    rotate: 90deg;
+    width: 450px;
+    height: 65px;
+}
+
+#FrontOrng{
+    background-color: rgba(255, 136, 0, 0.651);
+    height: 60px;
+    width: 300px;
+    backdrop-filter: blur(5px);
+}
+
+#Long{
+    height:60px;
+    width: 800px;
+}
+
+#MidSqr{
+    height: 145px;
+    width: 200px;
+    backdrop-filter: blur(9px);
+    background-color: rgba(255, 136, 0, 0.445);
+}
+
+#Back{
+    background-color: rgba(255, 187, 0, 0.63);
+}
+
+#Light1{
+    height: 348px;
+    width: 371px;
+}
+
+#Light2{
+    height: 125px;
+    width: 714px;
+}
+
+#Light3{
+    height: 58px;
+    width: 217px;
+    background-color: rgb(255, 242, 212);
+}
+
+#MidLight1{
+    height: 300px;
+    width: 100px;
+}
+
+#MidLight2{
+    height: 70px;
+    width: 50px;
+    background-color: rgb(255, 153, 0);
+    filter: blur(30px);
+}
+
+#MidLight3{
+    height: 69px;
+    width: 300px;
+    background-color: rgba(255, 94, 0, 0.9);
+}
+
+#FrLight2{
+    background-color: rgb(255, 0, 0);
+}
+
+/* z-index */
+#Front, #FrontOrng{
+z-index: 10;
+}
+
+#Vert{
+z-index: 2;
+}
+
+#Back{
+z-index: -1;
+}
+
+#BackSqr{
+    z-index: 0;
+}
+
+#Long{
+    z-index: -1;
+}
+
+#Light3{
+    z-index: -2;
+}
+
+/* Position */
+#Front{
+    margin: 350px 0 0 0;
+}
+
+#FrontOrng{
+    margin: 425px 0 0 299px;
+}
+
+#Vert{
+    margin: 395px 0px 0px 110px;
+    left: 100px;
+    box-sizing: border-box;
+}
+
+#Back{
+    margin: 416px 0px 0px 73px;
+    background-color: rgb(255, 187, 0);
+}
+
+#Long{
+    margin: 550px 0 0 100px;
+}
+
+#MidSqr{
+    margin: 444px 0px 0px 447px;
+}
+
+#BackSqr{
+    margin: 229px 0px 0px 453px;
+}
+
+#Light1{
+    margin: 222px 0px 0px 144px;
+}
+
+#Light2{
+    margin: 488px 0px 0px 66px;
+}
+
+#Light3{
+    margin: 550px 0px 0px 204px;
+}
+
+#MidLight1{
+    margin: 192px 0px 0px 381px;
+}
+
+#MidLight2{
+    margin: 576px 0px 0px 400px;
+}
+
+#MidLight3{
+    margin: 506px 0px 0px 98px;
+}
+
+#FrLight1{
+    margin: 313px 0px 0px 317px;
+}
+
+#FrLight2{
+    margin: 313px 0px 0px 317px;
+}
+
+.Wrapper{
+    position: absolute;
+    left: 325px;
+}
